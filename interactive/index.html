@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Интерактив</title>
+    <style type="text/css">#hellopreloader>p{display:none;}#hellopreloader_preload{display: block;position: fixed;z-index: 99999;top: 0;left: 0;width: 100%;height: 100%;min-width: 1000px;background: #BE90D4 url(http://hello-site.ru//main/images/preloads/ball-triangle.svg) center center no-repeat;background-size:127px;}</style>
+    <div id="hellopreloader"><div id="hellopreloader_preload"></div></div>
+    <script type="text/javascript">var hellopreloader = document.getElementById("hellopreloader_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhellopreloader);hellopreloader.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},1600);};</script>
+
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <section>
+        <div class="head-menu-wrapper" id="menu">
+            <div class="head-burgerbutton" id="menu_buttom" onclick="showMenu();">
+                <span class="bar bar1"></span>
+                <span class="bar bar2"></span>
+                <span class="bar bar3"></span>
+            </div>
+            <div class="head-menu">
+                <a class="menu-item">О НАС</a>
+                <a class="menu-item">О ЛЕГАТО</a>
+                <a class="menu-item">ЧЕГО МЫ ЖДЕМ?</a>
+                <a class="menu-item">АНКЕТА ВАКАНСИИ</a>
+            </div>
+        </div>
+        <div class="main-wrapper">
+            <div class="first-row">
+
+            </div>
+            <div class="second-row">
+                <img class="second-row-first" src="assets/img/leftpic.svg"/>
+                <div class="second-row-centralblock">
+                    <img src="assets/img/logo.svg">
+                    <label class="second-row-minitext">
+                        Да начнется путешествие
+                    </label>
+                    <label class="second-row-centraltext">
+                        Добро пожаловать<br>
+                        во вселенную<br>
+                        экспертов по недвижимости
+                    </label>
+                    <label class="second-row-about">
+                        Тебя ждёт увлекательное путешествие в мир недвижимости и работы мечты
+                    </label>
+                    <a class="second-row-button" onclick="window.scrollBy(0, window.innerHeight)">
+                        <label class="second-row-buttontext">Поехали!</label>
+                        <span class="second-row-buttonline"></span>
+                        <img class="second-row-buttonarrow" src="assets/img/button_arrow.svg"/>
+                    </a>
+                </div>
+                <img class="second-row-second" src="assets/img/rightpic.svg"/>
+            </div>
+            <div class="third-row">
+                <div class="third-row-leftside">
+                    © 2019 Legato. Все права защищены
+                </div>
+
+                <div class="third-row-centerside">
+                    СОГЛАШАЮСЬ НА ОБРАБОТКУ ПЕРСОНАЛЬНЫХ ДАННЫХ
+                </div>
+
+                <div class="third-row-rightside">
+                    <label class="third-row-share item-share">ПОДЕЛИТЬСЯ</label>
+                    <img class="item-share" src="assets/img/vk.svg"/>
+                    <img class="item-share" src="assets/img/facebook.svg"/>
+                    <img class="item-share" src="assets/img/inst.svg"/>
+                    <img src="assets/img/google.svg"/>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="videoFirst">
+<!--        <video id="firstVideo" src="assets/video/videotester.mp4"/>-->
+        <video width="100%" onended="showDialogWindow('firstWindow', this.id)" style="z-index: 1" id="fisrtVideo" height="100%" controls="controls">
+            <source src="assets/video/videotester.mp4" type='video/ogg; codecs="theora, vorbis"'>
+        </video>
+        <div id="firstWindow" class="window">
+            <div class="leftbar">
+                <img src="assets/img/logo-black.svg" class="leftbar-logo"/>
+
+                <input type="text" id="name" class="textbox-first" placeholder="Привет! Введи своё ФИО полностью"/>
+                <button class="button-first" onclick="window.scrollBy(0, window.innerHeight)">приятно познакомиться :)</button>
+            </div>
+            <div class="rightbar">
+                <img src="assets/img/element-interactiv1.svg"/>
+                <img src="assets/img/element-interactiv2.svg"/>
+            </div>
+        </div>
+    </section>
+    <section id="videoSecond">
+        <video width="100%" onended="showDialogWindow('secondWindow', this.id)" id="secondVideo" height="100%" controls="controls">
+            <source src="assets/video/videotester.mp4" type='video/ogg; codecs="theora, vorbis"'>
+        </video>
+        <div id="secondWindow" class="window">
+            <div class="leftbar">
+                <img src="assets/img/logo-black.svg" class="leftbar-logo"/>
+                <textarea type="text" id="about" class="textbox-second" placeholder="Расскажи о себе и своих главных качествах и ценностях как есть, нам важна искренность"></textarea>
+                <button class="button-first" onclick="window.scrollBy(0, window.innerHeight)">поехали дальше</button>
+            </div>
+            <div class="rightbar">
+                <img src="assets/img/element-interactive4.svg"/>
+                <img src="assets/img/element-interactive3.svg"/>
+                <img src="assets/img/element-interactive5.svg"/>
+            </div>
+        </div>
+    </section>
+    <section id="videoThird">
+        <video width="100%" onended="showDialogWindow('thirdWindow', this.id)" id="thirdVideo" height="100%" controls="controls">
+            <source src="assets/video/videotester.mp4" type='video/ogg; codecs="theora, vorbis"'>
+        </video>
+        <div id="thirdWindow" class="window qust">
+            <div class="wrapper-quest">
+                <div class="leftbar quest">
+                    <img src="assets/img/logo-black.svg" class="leftbar-logo"/>
+                    <div class="label-question">
+                        Выбери ответ
+                    </div>
+                </div>
+                <div class="rightbar quest">
+                    <img src="assets/img/element-interactive6.svg"/>
+                    <img src="assets/img/element-interactive7.svg"/>
+                </div>
+            </div>
+            <div class="questions">
+                <button class="button-block-question" onclick="window.scrollBy(0, window.innerHeight)">Я тихоня и люблю спокойную работу и размеренную</button>
+                <button class="button-block-question" onclick="window.scrollBy(0, window.innerHeight)">Обожаю сложные задачи и ныряю с головой в новые проекты</button>
+                <button class="button-block-question" onclick="window.scrollBy(0, window.innerHeight)">Я гиперактивный, меня не остановить, когда я вижу цель и иду к ней</button>
+            </div>
+        </div>
+    </section>
+    <section id="videoFourth">
+        <video width="100%" onended="showDialogWindow('fourthWindow', this.id)" id="fourthVideo" height="100%" controls="controls">
+            <source src="assets/video/videotester.mp4" type='video/ogg; codecs="theora, vorbis"'>
+        </video>
+        <div id="fourthWindow" class="window">
+            <div class="leftbar">
+                <img src="assets/img/logo-black.svg" class="leftbar-logo"/>
+                <textarea type="text" id="aboutto" class="textbox-second" placeholder="Напиши о своём профессиональном опыте и главных навыках"></textarea>
+                <button class="button-first" onclick="window.scrollBy(0, window.innerHeight)">поехали дальше</button>
+            </div>
+            <div class="rightbar">
+                <img src="assets/img/element-interactive4.svg"/>
+                <img src="assets/img/element-interactive3.svg"/>
+                <img src="assets/img/element-interactive5.svg"/>
+            </div>
+        </div>
+    </section>
+    <section id="videoFifth">
+        <video width="100%" onended="showDialogWindow('fifthWindow', this.id)" id="fifthVideo" height="100%" controls="controls">
+            <source src="assets/video/videotester.mp4" type='video/ogg; codecs="theora, vorbis"'>
+        </video>
+        <div id="fifthWindow" class="window">
+            <div class="leftbar">
+                <!-- Сюда тест -->
+                <button class="button-first" onclick="window.scrollBy(0, window.innerHeight)">поехали дальше</button>
+            </div>
+            <div class="rightbar">
+                <img src="assets/img/element-interactive6.svg"/>
+                <img src="assets/img/element-interactive7.svg"/>
+            </div>
+
+        </div>
+    </section>
+    <section id="videoSixth">
+        <video width="100%" onended="showDialogWindow('sixthWindow',this.id)" id="sixthVideo" height="100%" controls="controls">
+            <source src="assets/video/videotester.mp4" type='video/ogg; codecs="theora, vorbis"'>
+        </video>
+        <div id="sixthWindow" class="window qust">
+            <div class="wrapper-quest">
+                <div class="leftbar quest">
+                    <img src="assets/img/logo-black.svg" class="leftbar-logo"/>
+                    <div class="label-question last">
+                        Клиенту с ребенком нужна квартира, но он не уверен в каком районе брать и спрашивает тебя. Как ты поступишь?
+                    </div>
+                </div>
+                <div class="rightbar quest">
+                    <img src="assets/img/element-interactive6.svg"/>
+                    <img src="assets/img/element-interactive7.svg"/>
+                </div>
+            </div>
+            <div class="questions">
+                <button class="button-block-question" onclick="window.scrollBy(0, window.innerHeight)">Позвоню начальству и спрошу совета как быть в такой ситуации</button>
+                <button class="button-block-question" onclick="window.scrollBy(0, window.innerHeight)">Перед встречей узнаю клиента и буду готов ко всем его вопросам</button>
+                <button class="button-block-question" onclick="window.scrollBy(0, window.innerHeight)">Выясню заранее потребности, подберу объекты и проведу презентацию</button>
+            </div>
+        </div>
+    </section>
+    <section id="formRecieve" class="face">
+        <div class="form-wrapper">
+            <div class="form-left">
+                <img src="assets/img/logo-black.svg" class="leftbar-logo"/>
+                <div class="form-text">
+                    Молодец! Ты отлично<br>
+                    справился, и вот<br>
+                    самое последнее<br>
+                </div>
+                <div class="form-video-text">
+                    <img src="assets/img/videocam.svg" class="form-cam"/>
+                    <div class="form-left-text">
+                        Сними короткое видео с презентацией себя
+                    </div>
+                </div>
+                <div class="form-left-button">
+                    <a class="left-button-first">+ ПРИЛОЖИТЬ ВИДЕО</a>
+                    <a class="left-button-second" onclick="window.scrollBy(0, window.innerHeight)">ПРОПУСТИТЬ</a>
+                </div>
+            </div>
+            <div class="form-right">
+                <div class="main-form">
+
+                    <form class="form-elem">
+                        <label class="title-form">немного деталей о тебе</label>
+                        <input type="text" class="item-form-input" placeholder="Полное имя"/>
+                        <input type="text" class="item-form-input" placeholder="Возраст"/>
+                        <input type="text" class="item-form-input" placeholder="Телефон"/>
+                        <input type="text" class="item-form-input" placeholder="Образование"/>
+                        <div class="form-family">
+                            <select class="form-select">
+                                <option>Семья</option>
+                                <option>Пункт 2</option>
+                            </select>
+                            <select class="form-select into-input">
+                                <option>Дети</option>
+                                <option>Пункт 2</option>
+                            </select>
+                        </div>
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="check" class="form-check"/>
+                            <label class="label-check" for="check">Даю согласие на обработку данных</label>
+                        </div>
+                        <input type="submit" class="button-form" value="ОТПРАВИТЬ"/>
+                        <img src="assets/img/separator.svg"/>
+                        <label class="label-check">ссылки на твои соц. сети</label>
+                        <div class="form-family">
+                            <a class="social-item-form"><img style="margin-right: 20px;" src="assets/img/vk.svg"/>ВКОНТАКТЕ</a>
+                            <a class="social-item-inst"><img style="margin-right: 20px;" src="assets/img/inst.svg"/>INSTAGRAM</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="finishInteractive">
+
+        </div>
+    </section>
+    <section id="final" class="final">
+        <img src="assets/img/logo-black.svg"/>
+        <img src="assets/img/popup-final.svg" style="margin-top: 150px">
+    </section>
+    <script src="assets/js/mainaction.js" type="text/javascript"></script>
+</body>
+</html>

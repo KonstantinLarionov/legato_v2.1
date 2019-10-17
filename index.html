@@ -1,0 +1,560 @@
+5 сек сделаю репу
+<html>
+<head>
+    <meta charset="utf-8">
+    <style type="text/css">#hellopreloader>p{display:none;}#hellopreloader_preload{display: block;position: fixed;z-index: 99999;top: 0;left: 0;width: 100%;height: 100%;min-width: 1000px;background: #BE90D4 url(http://hello-site.ru//main/images/preloads/ball-triangle.svg) center center no-repeat;background-size:127px;}</style>
+    <div id="hellopreloader"><div id="hellopreloader_preload"></div></div>
+    <link href="assets/css/main.css"  rel="stylesheet" type="text/css"/>
+    <link href="assets/css/preloader.css"  rel="stylesheet" type="text/css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://rawgit.com/protonet/jquery.inview/master/jquery.inview.min.js"></script>
+
+</head>
+<body>
+<section class="head-first" id="head">
+    <div class="rectfirst" ></div>
+    <div class="minirectfirst"></div>
+    <div class="head-firstrow">
+        <div class="head-labelfirst">
+            <img src="assets/img/label-legalo-l.svg">
+            <img src="assets/img/label-legalo-e.svg">
+            <img src="assets/img/label-legalo-g.svg">
+            <img src="assets/img/label-legalo-a.svg">
+            <img src="assets/img/label-legalo-t.svg">
+            <img src="assets/img/label-legalo-o.svg">
+        </div>
+        <div class="head-labelsecond">
+            <img src="assets/img/the-same-job.svg">
+        </div>
+    <div class="head-menu-wrapper" id="menu">
+        <div class="head-burgerbutton" id="menu_buttom" onclick="showMenu();">
+            <span class="bar bar1"></span>
+            <span class="bar bar2"></span>
+            <span class="bar bar3"></span>
+        </div>
+        <div class="head-menu">
+            <a class="menu-item">О НАС</a>
+            <a class="menu-item">О ЛЕГАТО</a>
+            <a class="menu-item">ЧЕГО МЫ ЖДЕМ?</a>
+            <a class="menu-item">АНКЕТА ВАКАНСИИ</a>
+        </div>
+    </div>
+    </div>
+    <div class="head-secondrow">
+        <div class="head-blocktext">
+            <div class="head-blocktext-first">
+                привет. готов?
+            </div>
+            <label class="head-blocktext-second">
+                Развиваться<br>
+                находить решения<br>
+                быть другом клиента
+            </label>
+            <div class="head-blocktext-third">
+                вакансия МЕНЕДЖЕР <br>
+                ПО НЕДВИЖИМОСТИ
+            </div>
+            <div class="head-blocktext-fourth">
+                Твои главные качества?
+            </div>
+            <div class="head-blocktext-fifth">
+                <div class="blocktext-fifth">
+                    <div>
+                        РЕШИМОСТЬ
+                    </div>
+                    <div>
+                        СТРАСТЬ
+                    </div>
+                </div>
+                <div class="blocktext-fifth">
+                    <div>
+                        ЭНЕРГИЯ
+                    </div>
+                    <div>
+                        СМЕКАЛКА
+                    </div>
+                </div>
+                <div class="blocktext-fifth">
+                    <div>
+                        ХАРИЗМА
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="head-corusel-wrapper">
+            <div class="item-corusel">
+            <div class="corusel-itemfirst">
+                <img class="mini-item" src="assets/img/729c82b5e9c7ec29af742ad15898bb37.png" width="302" height="157"/>
+                <label class="corusel-header mini-item">Познакомимся? Кто мы?</label>
+                <label class="corusel-about mini-item">Легато - компания с 10-ти летней<br> историей, в этом видео расскажем о нас</label>
+                <a class="corusel-link mini-item">ПОДРОБНЕЕ</a>
+            </div>
+            <div class="corusel-itemsecond">
+                <img class="mini-item" src="assets/img/729c82b5e9c7ec29af742ad15898bb37.png" width="302" height="157"/>
+                <label class="corusel-header mini-item">Познакомимся? Кто мы?</label>
+                <label class="corusel-about mini-item">Легато - компания с 10-ти летней<br> историей, в этом видео расскажем о нас</label>
+                <a class="corusel-link mini-item">ПОДРОБНЕЕ</a>
+            </div>
+            <div class="corusel-itemthird">
+            </div>
+            </div>
+            <div class="controls-corusel">
+                <a class="control-corusel-button citem" id="first-page">01</a>
+                <div class="control-corusel-line citem" ><div class="corusel-slider"></div></div>
+                <a class="control-corusel-button citem" id="second-page">02</a>
+                <a class="control-corusel-button citem" id="third-page">03</a>
+            </div>
+        </div>
+    </div>
+    <div class="head-thirdrow">
+        <div class="head-leftside">
+            <div class="head-social">
+                <a class="social-item">
+                    <img src="assets/img/social-item-vk.svg">
+                </a>
+                <a class="social-item">
+                    <img src="assets/img/social-item-inst.svg">
+                </a>
+                <a class="social-item">
+                    <img src="assets/img/social-item-fb.svg">
+                </a>
+            </div>
+
+
+            <div class="blocktext-leftside-first">
+                будь готов
+            </div>
+            <div class="blocktext-leftside-second">
+                <div class="blocktext-fifth">
+                    <div class="blocktext-fifth-mobile1">
+                        УЧИТЬСЯ
+                    </div>
+                    <div class="blocktext-fifth-mobile2">
+                        ПРИНИМАТЬ РЕШЕНИЯ
+                    </div>
+                </div>
+                <div class="blocktext-fifth">
+                    <div class="blocktext-fifth-mobile3">
+                        ДЕЙСТВОВАТЬ
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="head-rightside">
+            <div class="blocktext-rightside-first">
+                горишь желанием?
+            </div>
+            <div>
+                <div class="head-element">
+                    <img src="assets/img/design-item-head.svg">
+                </div>
+                <div class="head-rightside-fillprofile">
+                    <a href="index.html" style="outline: none; text-decoration: none; color: white;">ЗАПОЛНИТЬ <br> АНКЕТУ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="about" id="about">
+    <div class="about-leftside">
+        <div class="about-title">
+            <div class="about-titlelable">
+                <img src="assets/img/label-legalo-about-l.svg">
+                <img src="assets/img/label-legalo-about-e.svg">
+                <img src="assets/img/label-legalo-about-g.svg">
+                <img src="assets/img/label-legalo-about-a.svg">
+                <img src="assets/img/label-legalo-about-t.svg">
+                <img src="assets/img/label-legalo-about-o.svg">
+            </div>
+            <div class="about-titletext">
+                <img src="assets/img/the-same-job-about.svg">
+            </div>
+        </div>
+        <div class="about-text">
+            Обычные резюме<br>
+            не подходят потому<br> что мы ищем<br> будущих экспертов
+        </div>
+        <img class="about-card-bg" src="assets/img/about-card-bg.svg">
+        <div class="about-textbold">
+            Нам важно:
+        </div>
+        <div class="about-textlow">
+            Твои персональные качества,<br> то как ты решаешь задачи,<br> как взаимодействуешь с<br> людьми - это решающий<br> фактор карьеры менеджера
+        </div>
+        <div class="about-buttonblock">
+            <a class="about-button">История</a>
+            <label class="about-button-label">Узнай как разивалась компания<br>Легато и как становилась лидером</label>
+        </div>
+    </div>
+    <div class="about-rightside">
+        <div class="about-rightside-firstline">
+            <div class="first-card card-out">
+                <div class="first-card-title">
+                    Твоё<br>развитие
+                </div>
+                <div class="first-card-text">
+                    Рынок решает, меняются<br>
+                    правила, появляются<br>
+                    новые подходы -<br>
+                    обучение - ключевой<br>
+                    фактор развития<br>
+                </div>
+            </div>
+            <img class="first-card-element" src="assets/img/about-first-card-element.svg">
+        </div>
+        <div class="about-rightside-secondline">
+            <div class="second-card card-out">
+                <div class="first-card-title">
+                    Какая ты лич-<br>
+                    ность
+                </div>
+                <div class="first-card-text">
+                    Обычное резюме никогда<br>
+                    не расскажет о том, кто ты<br>
+                    и что тобой движет, готов<br>
+                    ли ты брать ответственность<br>
+                </div>
+                <div class="second-card-emoji first-card-text">
+                    <img src="assets/img/about-second-card-emoji-crying.svg">
+                    <img src="assets/img/about-second-card-emoji-evil.svg">
+                    <img src="assets/img/about-second-card-emoji-lover.svg">
+                </div>
+            </div>
+            <div class="third-card card-out">
+                <div class="third-card-title">
+                    Знакомство
+                </div>
+                <div class="third-card-text">
+                    Сухие факты - не главные<br>
+                    качества сотрудника,<br>
+                    soft-skills = успех на совре-<br>
+                    менном рынке услуг<br>
+                </div>
+            </div>
+        </div>
+        <div class="about-rightside-thirdline">
+            <div class="fofth-card card-out">
+                <div class="fofth-card-title">
+                    Твоя<br>
+                    уникальность
+                </div>
+                <div class="fofth-card-text">
+                    Один подход и одинаковые<br>
+                    требования не покажут твои<br>
+                    лучшие стороны, ведь может<br>
+                    именно твой метод лучший<br>
+                </div>
+            </div>
+            <div class="fofth-element">
+                <img src="assets/img/about-fofth-element.svg">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="interactive">
+    <div class="interactive-ls">
+        <img data-offset="60" class="interactive-ls-red-shape parallax" src="assets/img/interactive-ls-red-shape.svg">
+        <img data-offset="60" class="interactive-ls-blue-shape parallax" src="assets/img/interactive-ls-blue-shape.svg">
+        <img  data-offset="60" class="interactive-ls-green-shape parallax" src="assets/img/interactive-ls-green-shape.svg">
+        <div class="interactive-ls-font-title ">
+            Интерактив<br>
+            Вовлечение<br>
+            Решение<br>
+        </div>
+        <img data-offset="60" class="interactive-ls-orange-shape parallax" src="assets/img/interactive-ls-orange-shape.svg">
+        <div class="interactive-ls-second-title">
+            Это наша жизнь! И мы предлагаем тебе<br>
+            попробовать новый формат знакомства<br>
+        </div>
+        <div class="interactive-buttonblock">
+            <a class="interactive-button">
+                <label class="item-button-first">Давай сыграем</label>
+                <span class="interactive-button-line"></span>
+                <img class="interactive-button-element" src="assets/img/arrow.svg">
+            </a>
+            <label class="interactive-button-label">Это будет увлекательное<br>путешествие внутрь нашей<br>компании и твоего опыта</label>
+        </div>
+        <img data-offset="60" class="interactive-ls-blue-shape-line parallax" src="assets/img/interactive-ls-blue-shape-line.svg">
+        <img data-offset="60" class="interactive-ls-violet-shape parallax" src="assets/img/interactive-ls-violet-shape.svg">
+        <div class="interactive-ls-thrid-title">
+            Это займет примерно 20 минут твоего времени<br>
+            и потребуется вся твоя концентрация<br>
+        </div>
+        <img data-offset="60" class="interactive-ls-green-shape-finally parallax" src="assets/img/interactive-ls-green-shape-finally.svg">
+
+
+    </div>
+    <div class="interactive-rs ">
+        <img data-offset="60" class="interactive-rs-yellow-shape-title parallax" src="assets/img/interactive-rs-yellow-shape-title.svg">
+        <img data-offset="60" class="interactive-rs-red-shape-title parallax" src="assets/img/interactive-rs-red-shape-title.svg">
+        <img data-offset="60" class="interactive-rs-yellow-oval parallax" src="assets/img/interactive-rs-yellow-oval.svg">
+        <img data-offset="60" class="interactive-rs-black-oval parallax" src="assets/img/interactive-rs-black-oval.svg">
+        <img data-offset="60" class="interactive-rs-green-wave parallax" src="assets/img/interactive-rs-green-wave.svg">
+        <img data-offset="60" class="interactive-rs-red-shape parallax" src="assets/img/interactive-ls-orange-shape.svg">
+        <img data-offset="60" class="interactive-rs-yellow-wave parallax" src="assets/img/interactive-rs-yellow-wave.svg">
+        <img data-offset="60" class="interactive-rs-black-oval-center parallax" src="assets/img/interactive-rs-black-oval.svg">
+        <img data-offset="60" class="interactive-rs-white-oval parallax" src="assets/img/interactive-rs-white-oval.svg">
+        <img data-offset="60" class="interactive-rs-blue-wave parallax" src="assets/img/interactive-rs-blue-wave.svg">
+        <img data-offset="60" class="interactive-rs-green-triangle parallax" src="assets/img/interactive-rs-green-triangle.svg">
+        <img data-offset="60" class="interactive-rs-green-shape parallax" src="assets/img/interactive-rs-green-shape.svg">
+        <img data-offset="60" class="interactive-rs-yellow-oval-finally parallax" src="assets/img/interactive-rs-yellow-oval.svg">
+        <img data-offset="60" class="interactive-rs-arrow parallax" src="assets/img/interactive-rs-arrow.svg">
+
+
+        <img class="interactive-rs-robot-dialog" src="assets/img/robot-dialog.svg">
+        <img class="interactive-rs-robot" src="assets/img/robot.svg">
+        <img class="interactive-rs-arrow" src="assets/img/interactive-rs-arrow.svg">
+
+    </div>
+
+</section>
+<section class="dive">
+    <div class="dive-ls">
+        <img data-offset="60" class="dive-ls-red-shape parallax" src="assets/img/interactive-ls-red-shape.svg">
+<!--        <div class="dive-ls-img-sim" >-->
+<!--            <img src="assets/img/sim.svg" >-->
+<!--        </div>-->
+        <div class="dive-ls-block">
+            <div class="dive-ls-ls-block">
+                <div class="wrappersmoke"></div>
+                <img class="dive-ls-ls-img-smoke"src="assets/img/smoke.svg">
+            </div>
+            <div data-offset="15" class="dive-rs-ls-block parallax">
+                <img class="dive-rs-ls-img-sim"src="assets/img/girl.svg">
+            </div>
+        </div>
+        <div class="dive-ls-sim-sit">
+            <img src="assets/img/chia-candle.svg">
+        </div>
+        <img data-offset="60" class="dive-ls-green-shape parallax" src="assets/img/interactive-ls-green-shape.svg">
+        <img data-offset="60" class="dive-ls-orange-shape parallax" src="assets/img/interactive-ls-orange-shape.svg">
+    </div>
+
+    <div class="dive-rs">
+        <img class="dive-rs-border" src="assets/img/dive-rs-border.svg">
+        <div class="dive-rs-text-voice">
+            узнаем друг друга получше?
+        </div>
+        <div class="dive-rs-text-title">
+            Погружение в твой<br>
+            опыт и твои интересы<br>
+        </div>
+        <img data-offset="60" class="dive-rs-blue-shape parallax" src="assets/img/interactive-ls-blue-shape.svg">
+        <div class="dive-rs-text-tag">
+            Навыки и опыт — это основа, но для нас самым<br>
+            важным является совместимость на уровне<br>
+            ценностей, например, как ты ответишь на вопрос<br>
+        </div>
+        <img data-offset="60" class="dive-rs-yellow-shape parallax" src="assets/img/interactive-rs-yellow-shape-title.svg">
+        <img data-offset="60" class="dive-rs-red-shape parallax" src="assets/img/interactive-rs-red-shape-title.svg">
+
+        <div class="dive-rs-text-tag2">
+            «а давай завоюем мир?!»
+        </div>
+        <img data-offset="60" class="dive-rs-yellow-wave parallax" src="assets/img/interactive-rs-yellow-wave.svg">
+        <img data-offset="60" class="dive-rs-orange-shape parallax" src="assets/img/interactive-ls-orange-shape.svg">
+
+        <div class="dive-rs-buttonblock">
+            <a class="dive-rs-button">Приступаем</a>
+            <label class="dive-rs-button-label">Это отнимет у тебя 15 минут<br>
+                и подарит много новых возможностей</label>
+        </div>
+        <div class="dive-rs-buttonblock-values">
+            <a class="dive-rs-button-values">Ценности Legato</a>
+            <div class="dive-rs-button-values-label">
+                Понимание задачи и пути её решения<br>
+                и человесекой психологии - только вершина айсберга
+                </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="finally" >
+    <div class="dive-f">
+        <div class="dive-f-t">
+            <div class="dive-f-t-ls">
+                <label class="dive-f-text">
+                    Прямая речь
+                </label>
+            </div>
+            <div class="dive-f-t-rs">
+                <div class="dive-f-button-block">
+                    <label class="dive-f-button-label">
+                        видео о нашей<br>
+                        вакансии
+                    </label>
+                    <a class="dive-f-button" href="interactive/index.html">
+                        <img src="assets/img/dive-f-oval.svg">
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        <div class="dive-f-coral">
+            <span class="dive-f-coral-text" id="typed">
+
+            </span>
+        </div>
+        <div class="dive-f-text-finally">
+            Основатель и управляющий Legato недвижимость
+        </div>
+
+    </div>
+    <div>
+        <div class="finaly">
+        <div class="finaly-ls">
+        <img class="finally-ls-ok-img" src="assets/img/finally-ok.svg">
+        <div class="finaly-ls-text-title">
+            <label class="finaly-ls-text-title-o">
+                Ну так вот
+            </label>
+            <img class="finaly-ls-text-title-img" src="assets/img/finaly-rectangle-title.svg">
+            <label class="finaly-ls-text-title-o finaly-ls-text-title-t">
+                Момент истины настал
+            </label>
+        </div>
+        <div class="finaly-ls-text-call">
+            Что тебя<br>
+            сейчас ждёт?
+        </div>
+        <img class="finally-center-arrow" src="assets/img/finaly-title-arrow.svg">
+        <div class="finaly-ls-text-call-label">
+            Тебе потребуется устройство с камерой, например,<br>
+            ноутбук и 20 минут твоего внимания
+        </div>
+        <div data-offset="90" class="finaly-ls-call-comment parallax">
+            <label class="finaly-ls-call-comment-text">
+            Возможно, ты узнаешь много нового,<br>
+            нам и самим интересно
+            </label>
+            <img  class="" src="assets/img/finally-process.svg">
+        </div>
+
+    </div>
+    <div class="finaly-rs">
+        <img class="finally-rs-cross" src="assets/img/finaly-title-cross.svg">
+        <div class="finaly-rs-title">
+            <img data-offset="90" class="finaly-rs-title-img parallax" src="assets/img/finally-say.svg">
+            <div data-offset="90" class="finaly-rs-title-text parallax">
+                <label class="finaly-rs-text-title">
+                Говорим прямо
+                 </label>
+                <label class="finaly-rs-text-title-comment">
+                Никаких формальностей, только мы, ты<br>
+                и никаких предрассудков
+                </label>
+                </div>
+        </div>
+        <img class="finally-rs-arrow" src="assets/img/finaly-arrow.svg">
+        <div class="finaly-rs-text-call">
+            Включаем голову
+        </div>
+        <div class="finaly-rs-text-call-comment">
+            Интуиция, внимание<br>
+            и смекалка сейчас пригодятся
+        </div>
+
+    </div>
+    </div>
+    </div>
+</section>
+
+
+<section>
+    <div class="bottom">
+    <div class="bottom-ls">
+        <img class="bottom-ls-title-arrow" src="assets/img/bottom-title-arrow.svg">
+        <div class="bottom-ls-text-comment">
+            Если некоторые вопросы займут<br>
+            больше времени - ничего,<br>
+            главное полнота ответа
+        </div>
+        <div class="bottom-ls-call-finally">
+            <img data-offset="90" class="parallax" src="assets/img/bottom-play.svg">
+            <div data-offset="90" class="bottom-ls-title-text parallax">
+                <div class="bottom-ls-text-finally">
+                А в итоге
+                </div>
+                <div class="bottom-ls-text-finally-comment">
+                Мы рассчитываем на тебя и ждём нового<br>
+                лидера в наших рядах
+                </div>
+        </div>
+            <img class="bottom-ls-arrow" src="assets/img/bottom-arrow.svg">
+        </div>
+        <div class="bottom-ls-finally">
+        </div>
+    </div>
+        <div class="bottom-rs">
+            <img class="bottom-rs-wave-arrow" src="assets/img/bottom-wave-arrow.svg">
+            <div class="bottom-rs-call-finally">
+                <img data-offset="90" class="parallax" src="assets/img/bottom-say.svg">
+                <div data-offset="90"  class="bottom-rs-title-text parallax">
+                    <div class="bottom-rs-text-call-finally">
+                        +\- 30 минут
+                    </div>
+                    <div class="bottom-rs-text-call-finally-comment">
+                        Понадобится для погружения
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-title-lable">
+                <div>
+                    <img src="assets/img/finally-l.svg">
+                    <img src="assets/img/finally-e.svg">
+                    <img src="assets/img/finally-g.svg">
+                    <img src="assets/img/finally-a.svg">
+                    <img src="assets/img/finally-t.svg">
+                    <img src="assets/img/finally-o.svg">
+                </div>
+                <div class="bottom-title-titletext">
+                    <img src="assets/img/finally-the-same-job.svg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-finally">
+        <div class="bottom-ls-finally-ls">
+            <div class="bottom-ls-tag">
+                Поделись вакансией с другом
+            </div>
+            <div class="bottom-ls-tag-social">
+                <div class="bottom-ls-tag-social-block">
+                    <a class="bottom-ls-tag-social-button">
+                        ВК
+                    </a>
+                    <a class="bottom-ls-tag-social-button">
+                        ФБ
+                    </a>
+                    <a class="bottom-ls-tag-social-button">
+                        ИНСТ
+                    </a>
+                    <a class="bottom-ls-tag-social-button">
+                        ПОЧТА
+                    </a>
+                </div>
+            </div>
+        </div>
+
+            <a class="bottom-ls-finally-rs pulse" href="interactive">Погнали</a>
+
+        <div class="bottom-rs-text-tag">
+            Хочешь стать риэлтором, но ещё не готов?<br>
+            Держи обучающие материалы
+        </div>
+    </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+<script src="assets/js/mainaction.js" type="text/javascript"></script>
+<script>
+    var typed = new Typed('#typed', {
+        // Waits 1000ms after typing "First"
+        strings: ['', 'Являясь профессионалом рынка считаю, что  ','Еще текст для печати','И Еще текст для печати 2'],
+        loop: true,
+        typeSpeed: 50,
+        showCursor: false
+    });
+</script>
+</body>
+</html>
