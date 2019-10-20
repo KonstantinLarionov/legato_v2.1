@@ -2324,7 +2324,7 @@ color: #FFFFFF;
     .head-blocktext-first
     {
         font-size: 48px;
-        margin-bottom: 7%;
+        margin-bottom: 3%;
     }
 
     .head-blocktext-second
@@ -2346,7 +2346,7 @@ color: #FFFFFF;
 
     .head-blocktext-fourth
     {
-        margin-top: 15%;
+        margin-top: 10%;
         font-size: 36px;
         margin-left: 3%;
     }
@@ -2360,6 +2360,10 @@ color: #FFFFFF;
         line-height: 50px;
     }
 
+    .head-leftside
+    {
+        margin-top: 5%;
+    }
     .blocktext-leftside-second
     {
         width: 110%;
@@ -2393,6 +2397,11 @@ color: #FFFFFF;
         margin-top: 3%;
     }
 
+    .head-thirdrow
+    {
+        margin-top: -5%;
+    }
+
     .head-rightside
     {
         width: 100%;
@@ -2408,7 +2417,7 @@ color: #FFFFFF;
     {
         margin-right: 0;
         margin-left: 20%;
-        margin-top: 5%;
+        margin-top: 3%;
         font-size: 36px;
     }
 
@@ -2460,7 +2469,7 @@ color: #FFFFFF;
     .about-leftside
     {
         width: 100%;
-        margin-top: 5%;
+        height: 100%;
     }
 
     .about-title
@@ -2470,16 +2479,20 @@ color: #FFFFFF;
 
     .about-text
     {
-        font-size: 54px;
-        line-height: 70px;
+        font-size: 78px;
+        line-height: 85px;
         margin-left: 15%;
         font-weight: bold;
+        /*margin-top: -8%;*/
+        z-index: 3;
     }
 
     .about-textbold
     {
         margin-left: 15%;
-        font-size: 80px;
+        font-size: 130px;
+        margin-top: 15%;
+        z-index: 3;
     }
 
     .about-rightside
@@ -2490,50 +2503,62 @@ color: #FFFFFF;
     .about-textlow
     {
         margin-left: 15%;
-        margin-top: 5%;
-        font-size: 36px;
+        margin-top: 15%;
+        font-size: 54px;
         line-height: unset;
+        z-index: 3;
     }
 
     .about-buttonblock
     {
         margin-left: 15%;
-        margin-top: 3%;
+        margin-top: 10%;
+        z-index: 3;
     }
 
     .about-button-label
     {
         margin-left: 3%;
-        font-size: 24px;
-        line-height: 24px;
+        font-size: 36px;
+        line-height: 40px;
+        margin-top: 1%;
     }
 
     .first-card-element
     {
         position: absolute;
         margin-left: 35%;
-        margin-top: -65%;
+        margin-top: -35%;
         transform: rotate(29deg);
+        height: 10%;
+        z-index: 1;
     }
 
     .about-button
     {
-        font-size: 24px;
+        font-size: 36px;
+        margin-top: 1.1%;
+        width: 220px;
+        height: 80px;
+        border-radius: 37px;
     }
 
     .first-card
     {
         margin-top: 3%;
+        display: none;
     }
 
     .first-card-title
     {
-        font-size: 48px;
+        font-size: 62px;
+        line-height: 70px;
     }
 
     .first-card-text
     {
-        font-size: 20px;
+        font-size: 32px;
+        line-height: 40px;
     }
 
     .about-rightside-firstline
@@ -2543,33 +2568,56 @@ color: #FFFFFF;
 
     .about-rightside-secondline
     {
-        margin-top: -6%;
+        margin-top: 7%;
+        /*height: 40%;*/
     }
 
     .second-card
     {
-        margin-left: 8%;
+        position: absolute;
+        z-index: 2;
+        margin-left: -10%;
+        margin-top: -40%;
+        height: 400px;
+        width: 450px;
     }
 
     .third-card
     {
         margin-top: 3%;
+        display: none;
     }
 
     .fofth-card
     {
         margin-top: -5%;
         margin-left: -10%;
+        display: none;
+    }
+
+    .about-card-bg
+    {
+        margin-top: 65%;
     }
 
     .fofth-element
     {
         position: absolute;
         margin-left: 30%;
-        margin-top: -5%;
+        margin-top: -30%;
+        z-index: 1;
     }
 
+    .emoji-mobile1
+    {
+        height: 100px;
+        width: 100px;
+    }
 
+    .second-card-emoji
+    {
+        display: none;
+    }
 
 
 
