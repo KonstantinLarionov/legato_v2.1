@@ -2513,7 +2513,7 @@ color: #FFFFFF;
     .about-buttonblock
     {
         margin-left: 15%;
-        margin-top: 10%;
+        margin-top: 5%;
         z-index: 3;
     }
 
@@ -2632,11 +2632,73 @@ color: #FFFFFF;
     .interactive-ls
     {
         width: 100%;
+        /*margin-top: -10%;*/
+    }
+    .interactive-ls-red-shape
+    {
+        margin-left: 6%;
+        margin-top: 2%;
+    }
+    .interactive-ls-font-title
+    {
+        font-size: 120px;
+        line-height: 120px;
+    }
+    .interactive-ls-second-title
+    {
+        font-size: 54px;
+        line-height: 54px;
+        margin-top: 5%;
+    }
+    .interactive-buttonblock
+    {
+        margin-top: 5%;
+    }
+    .interactive-button
+    {
+        margin-top: 2%;
+        width: 350px;
+        font-size: 36px;
+    }
+    .interactive-button-element
+    {
+        margin-left: 2%;
+    }
+    .interactive-button-label
+    {
+        margin-left: 5%;
+        width: auto;
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .interactive-ls-thrid-title
+    {
+        font-size: 30px;
+        line-height: 30px;
+        margin-top: 6%;
     }
     .interactive-rs
     {
         width: 100%;
     }
+    .interactive-rs-robot
+    {
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+    .interactive-rs-robot-dialog
+    {
+        height: 110px;
+        margin-left: 10%;
+        margin-top: 20%;
+        width: auto;
+    }
+
+
+
+
+
+
     .dive
     {
         flex-direction: column;
