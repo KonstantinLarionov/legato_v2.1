@@ -2801,7 +2801,7 @@ color: #FFFFFF;
     .dive-rs-border
     {
         margin-left: 70%;
-        margin-top: 12%;
+        margin-top: 25%;
     }
     .dive-rs-text-title
     {
@@ -2861,6 +2861,32 @@ color: #FFFFFF;
         line-height: 30px;
         margin-left: 40%;
         margin-top: -8%;
+    }
+
+
+    .dive-f-button-label
+    {
+        font-size: 30px;
+        line-height: 30px;
+        margin-right: 5%;
+    }
+    .dive-f-text
+    {
+        font-size: 36px;
+        margin-top: 2%;
+        margin-left: 15%;
+    }
+    .dive-f-coral-text
+    {
+        font-size: 42px;
+        margin-top: 3%;
+        margin-left: 10%;
+    }
+    .dive-f-text-finally
+    {
+        font-size: 36px;
+        margin-left: 7%;
+        margin-top: 4%;
     }
 
 
