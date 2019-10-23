@@ -2569,7 +2569,7 @@ color: #FFFFFF;
     {
         position: absolute;
         margin-left: 35%;
-        margin-top: 35%;
+        /*margin-top: 35%;*/
         transform: rotate(29deg);
         height: 10%;
         z-index: 1;
@@ -2615,12 +2615,12 @@ color: #FFFFFF;
 
     .second-card
     {
-        position: absolute;
+        /*position: absolute;*/
         z-index: 2;
         margin-left: -10%;
         margin-top: 13%;
-        height: 430px;
-        width: 450px;
+        height: 90%;
+        width: 45%;
         transform: none;
     }
 
@@ -2646,7 +2646,7 @@ color: #FFFFFF;
     {
         position: absolute;
         margin-left: 30%;
-        margin-top: 10%;
+        margin-top: -15%;
         z-index: 1;
     }
 
