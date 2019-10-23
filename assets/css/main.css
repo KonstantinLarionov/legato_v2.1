@@ -2619,7 +2619,7 @@ color: #FFFFFF;
         z-index: 2;
         margin-left: -10%;
         margin-top: 13%;
-        height: 400px;
+        height: 430px;
         width: 450px;
     }
 
@@ -2795,7 +2795,7 @@ color: #FFFFFF;
     .dive-rs-text-voice
     {
         margin-left: 12%;
-        margin-top: 18%;
+        margin-top: 30%;
         font-size: 36px;
     }
     .dive-rs-border
@@ -2805,9 +2805,63 @@ color: #FFFFFF;
     }
     .dive-rs-text-title
     {
-        font-size: 54px;
+        font-size: 64px;
+        line-height: 60px;
+        margin-top: 4%;
+        margin-left: 12%;
+    }
+    .dive-rs-text-tag
+    {
+        margin-left: 12%;
+        margin-top: 3%;
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .dive-rs-text-tag2
+    {
+        margin-top: 1%;
+        margin-left: 12%;
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .dive-rs-button
+    {
+        width: 230px;
+        height: 65px;
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .dive-rs-button-label
+    {
+        font-size: 32px;
+        line-height: 36px;
+        margin-left: 4%;
     }
 
+    .dive-rs-buttonblock
+    {
+        margin-left: 10%;
+        margin-top: 7%;
+    }
+    .dive-rs-buttonblock-values
+    {
+        margin-left: 8%;
+        margin-top: 8%;
+        display: initial;
+    }
+    .dive-rs-button-values
+    {
+        padding: 20px 31px 20px 31px;
+        font-size: 36px;
+        border: 1px solid rgba(0,0,0,0.5);
+    }
+    .dive-rs-button-values-label
+    {
+        font-size: 30px;
+        line-height: 30px;
+        margin-left: 40%;
+        margin-top: -8%;
+    }
 
 
 }
