@@ -2621,6 +2621,7 @@ color: #FFFFFF;
         margin-top: 13%;
         height: 430px;
         width: 450px;
+        transform: none;
     }
 
     .third-card
@@ -2889,5 +2890,194 @@ color: #FFFFFF;
         margin-top: 4%;
     }
 
+
+
+
+    .finaly
+    {
+        flex-direction: column;
+    }
+    .finaly-ls
+    {
+        width: 100%;
+    }
+    .finaly-ls-text-title
+    {
+        margin-top: 10%;
+        margin-left: 16%;
+    }
+    .finaly-ls-text-title-o
+    {
+        font-size: 36px;
+    }
+    .finaly-ls-text-call
+    {
+        margin-left: 16%;
+        margin-top: 4%;
+        font-size: 90px;
+        line-height: 95px;
+    }
+    .finally-center-arrow
+    {
+        margin-top: 20%;
+        margin-left: 70%;
+    }
+    .finaly-ls-text-call-label
+    {
+        margin-left: 16%;
+        margin-top: 7%;
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .finaly-ls-call-comment
+    {
+        /*margin-left: 30%;*/
+        margin-top: -8%;
+        transform: none;
+    }
+    .finaly-ls-call-comment-text
+    {
+        margin-top: 45%;
+        font-size: 30px;
+        line-height: 30px;
+        margin-left: 30%;
+    }
+    .finally-process-mobile
+    {
+        margin-left: -30%;
+    }
+    .finaly-rs
+    {
+        width: 100%;
+    }
+    .finaly-rs-title
+    {
+        margin-top: 12%;
+        transform: none;
+    }
+    .finaly-rs-text-call
+    {
+        font-size: 40px;
+        line-height: 48px;
+        margin-left: 10%;
+        margin-top: -75%;
+    }
+    .finaly-rs-text-call-comment
+    {
+        margin-top: 3%;
+        margin-left: 10%;
+        font-size: 28px;
+    }
+    .finaly-rs-title-img
+    {
+        /*margin-left: -15%;*/
+    }
+    .finaly-rs-text-title-comment
+    {
+        margin-top: 4%;
+        font-size: 28px;
+    }
+    .finaly-rs-text-title
+    {
+        margin-top: inherit;
+    }
+    .finally-rs-arrow
+    {
+        margin-top: 40%;
+        margin-left: 55%;
+    }
+
+
+
+
+    .bottom
+    {
+        flex-direction: column;
+    }
+    .bottom-ls
+    {
+        width: 100%;
+    }
+    .bottom-ls-text-comment
+    {
+        font-size: 38px;
+        line-height: 42px;
+        margin-top: 10%;
+        margin-left: 15%;
+    }
+    .bottom-ls-title-arrow
+    {
+        margin-left: 55%;
+        margin-top: 25%;
+    }
+    .bottom-ls-call-finally
+    {
+        transform: none;
+        margin-top: 18%;
+    }
+    .bottom-ls-text-finally
+    {
+        margin-top: inherit;
+    }
+    .bottom-ls-text-finally-comment
+    {
+        font-size: 32px;
+        line-height: 35px;
+        margin-top: 5%;
+    }
+    .bottom-rs
+    {
+        width: 100%;
+    }
+    .bottom-rs-call-finally
+    {
+        transform: none;
+        margin-top: 15%;
+    }
+    .bottom-rs-text-call-finally
+    {
+        margin-top: inherit;
+    }
+    .bottom-rs-text-call-finally-comment
+    {
+        font-size: 32px;
+        margin-top: 4%;
+    }
+    .bottom-title-lable
+    {
+        margin-top: 8%;
+    }
+    .bottom-finally
+    {
+        flex-direction: column;
+        margin-top: 10%;
+    }
+    .bottom-ls-finally-ls
+    {
+        margin-left: -45%;
+    }
+    .bottom-ls-tag
+    {
+        font-size: 30px;
+        line-height: 35px;
+        margin-right: inherit;
+    }
+    .bottom-ls-tag-social
+    {
+        font-size: 28px;
+        line-height: 28px;
+        margin-top: 5%;
+    }
+    .bottom-ls-finally-rs
+    {
+        margin-top: 2%;
+    }
+    .bottom-rs-text-tag
+    {
+        margin-top: 3%;
+        font-size: 36px;
+        line-height: 40px;
+        margin-left: inherit;
+    }
 
 }
